@@ -1,6 +1,7 @@
 package homework.Andrei.Paun.runner;
 
-import employee.HREmployeeDepartment.HrEmployee;
+
+import homework.Andrei.Paun.employee.HREmployeeDepartment.HrEmployee;
 
 public class RunApp {
     public static void main(String[] args) {
