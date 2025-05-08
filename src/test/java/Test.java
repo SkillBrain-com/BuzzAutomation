@@ -9,6 +9,8 @@ public class Test {
 
     private static final String URL_DEMO_QA = "https://demoqa.com/";
 
+//  TODO - extract void main code into separate method
+
     public static void main(String[] args) throws InterruptedException {
         // 1. Go to https://demoqa.com/
         // a. Setup Driver
@@ -55,10 +57,8 @@ public class Test {
         driver.findElement(By.xpath("//div[@aria-label='Choose Thursday, August 7th, 2025']")).click();
 
 
-
-
         //4. Close browser (using driver)
-//        driver.close();
+        driver.close();
 
     }
 
