@@ -1,3 +1,4 @@
+import factory.DriverFactory;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -7,6 +8,17 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class TestAlert {
 
     public static void main(String[] args) {
+
+        DriverFactory factory = new DriverFactory();
+        WebDriver driver = factory.getDriver();
+        driver.get("https://demoqa.com");
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
+
 //        firstAlertTest();
 //        secondAlertTest();
 //        TODO - create test case for last alert on the /alerts page
