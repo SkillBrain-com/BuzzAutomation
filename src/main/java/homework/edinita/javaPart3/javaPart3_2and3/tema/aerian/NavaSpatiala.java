@@ -1,6 +1,7 @@
 package homework.edinita.javaPart3.javaPart3_2and3.tema.aerian;
 
-import temeNotion_si_heartBeat.javaPart3_2and3.tema.MijloaceDeTransport;
+
+import homework.edinita.javaPart3.javaPart3_2and3.tema.MijloaceDeTransport;
 
 public class NavaSpatiala extends MijloaceDeTransport {
     private int vitezaOrbitala;

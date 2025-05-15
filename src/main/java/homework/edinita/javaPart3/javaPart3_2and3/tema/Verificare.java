@@ -1,10 +1,11 @@
 package homework.edinita.javaPart3.javaPart3_2and3.tema;
 
-import temeNotion_si_heartBeat.javaPart3_2and3.tema.aerian.Avion;
-import temeNotion_si_heartBeat.javaPart3_2and3.tema.aerian.BalonCuAerCald;
-import temeNotion_si_heartBeat.javaPart3_2and3.tema.aerian.Elicopter;
-import temeNotion_si_heartBeat.javaPart3_2and3.tema.aerian.NavaSpatiala;
-import temeNotion_si_heartBeat.javaPart3_2and3.tema.naval.Barca;
+
+import homework.edinita.javaPart3.javaPart3_2and3.tema.aerian.Avion;
+import homework.edinita.javaPart3.javaPart3_2and3.tema.aerian.BalonCuAerCald;
+import homework.edinita.javaPart3.javaPart3_2and3.tema.aerian.Elicopter;
+import homework.edinita.javaPart3.javaPart3_2and3.tema.aerian.NavaSpatiala;
+import homework.edinita.javaPart3.javaPart3_2and3.tema.naval.Barca;
 
 public class Verificare {
     public static void main(String[] args) {
