@@ -1,8 +1,8 @@
 package homework.edinita.javaPart3.javaPart3_2and3.transport.motor.motor.motorMasina;
 
-import temeNotion_si_heartBeat.javaPart3_2and3.transport.motor.combustibil.Benzina;
-import temeNotion_si_heartBeat.javaPart3_2and3.transport.motor.combustibil.Gpl;
-import temeNotion_si_heartBeat.javaPart3_2and3.transport.motor.motor.Motor;
+
+import homework.edinita.javaPart3.javaPart3_2and3.transport.motor.combustibil.Gpl;
+import homework.edinita.javaPart3.javaPart3_2and3.transport.motor.motor.Motor;
 
 public class MotorGpl implements Motor {
     private final String model;

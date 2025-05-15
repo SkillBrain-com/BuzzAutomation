@@ -1,8 +1,9 @@
 package homework.edinita.javaPart3.javaPart3_2and3.transport.motor;
 
-import temeNotion_si_heartBeat.javaPart3_2and3.transport.motor.motor.Motor;
 
-public class CreareMotor implements Motor{
+import homework.edinita.javaPart3.javaPart3_2and3.transport.motor.motor.Motor;
+
+public class CreareMotor implements Motor {
     private Motor motor;
 
     public CreareMotor(Motor motor) {

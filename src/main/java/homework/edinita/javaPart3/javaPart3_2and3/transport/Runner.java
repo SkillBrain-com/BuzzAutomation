@@ -1,13 +1,13 @@
 package homework.edinita.javaPart3.javaPart3_2and3.transport;
 
-import temeNotion_si_heartBeat.javaPart3_2and3.transport.motor.CreareMotor;
-import temeNotion_si_heartBeat.javaPart3_2and3.transport.motor.combustibil.Diesel;
-import temeNotion_si_heartBeat.javaPart3_2and3.transport.motor.combustibil.Electric;
-import temeNotion_si_heartBeat.javaPart3_2and3.transport.motor.combustibil.Hybrid;
-import temeNotion_si_heartBeat.javaPart3_2and3.transport.motor.motor.Motor;
-import temeNotion_si_heartBeat.javaPart3_2and3.transport.motor.motor.motorAutobuz.MotorAutobuzDiesel;
-import temeNotion_si_heartBeat.javaPart3_2and3.transport.motor.motor.motorAutobuz.MotorAutobuzElectric;
-import temeNotion_si_heartBeat.javaPart3_2and3.transport.motor.motor.motorAutobuz.MotorAutobuzHybrid;
+
+import homework.edinita.javaPart3.javaPart3_2and3.transport.motor.CreareMotor;
+import homework.edinita.javaPart3.javaPart3_2and3.transport.motor.combustibil.Diesel;
+import homework.edinita.javaPart3.javaPart3_2and3.transport.motor.combustibil.Electric;
+import homework.edinita.javaPart3.javaPart3_2and3.transport.motor.combustibil.Hybrid;
+import homework.edinita.javaPart3.javaPart3_2and3.transport.motor.motor.motorAutobuz.MotorAutobuzDiesel;
+import homework.edinita.javaPart3.javaPart3_2and3.transport.motor.motor.motorAutobuz.MotorAutobuzElectric;
+import homework.edinita.javaPart3.javaPart3_2and3.transport.motor.motor.motorAutobuz.MotorAutobuzHybrid;
 
 import java.util.List;
 

@@ -1,6 +1,7 @@
 package homework.AndreiB.marti18_02;
 
-import marti11_02.BankAccount;
+
+import homework.AndreiB.marti11_02.BankAccount;
 
 import java.util.List;
 

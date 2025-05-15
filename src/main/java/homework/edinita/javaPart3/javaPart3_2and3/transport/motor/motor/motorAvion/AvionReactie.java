@@ -1,8 +1,8 @@
 package homework.edinita.javaPart3.javaPart3_2and3.transport.motor.motor.motorAvion;
 
-import temeNotion_si_heartBeat.javaPart3_2and3.transport.motor.combustibil.Benzina;
-import temeNotion_si_heartBeat.javaPart3_2and3.transport.motor.combustibil.Kerosen;
-import temeNotion_si_heartBeat.javaPart3_2and3.transport.motor.motor.Motor;
+
+import homework.edinita.javaPart3.javaPart3_2and3.transport.motor.combustibil.Kerosen;
+import homework.edinita.javaPart3.javaPart3_2and3.transport.motor.motor.Motor;
 
 public class AvionReactie implements Motor {
     private final String model;

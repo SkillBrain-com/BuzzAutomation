@@ -1,7 +1,7 @@
 package homework.edinita.javaPart3.courses;
 
-import javabascis3.inheritence.ElectricVehicle;
 
+import homework.edinita.javaPart3.courses.inheritence.ElectricVehicle;
 
 public class Test {
 

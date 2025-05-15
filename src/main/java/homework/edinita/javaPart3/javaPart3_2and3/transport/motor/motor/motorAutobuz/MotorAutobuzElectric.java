@@ -1,7 +1,8 @@
 package homework.edinita.javaPart3.javaPart3_2and3.transport.motor.motor.motorAutobuz;
 
-import temeNotion_si_heartBeat.javaPart3_2and3.transport.motor.combustibil.Electric;
-import temeNotion_si_heartBeat.javaPart3_2and3.transport.motor.motor.Motor;
+
+import homework.edinita.javaPart3.javaPart3_2and3.transport.motor.combustibil.Electric;
+import homework.edinita.javaPart3.javaPart3_2and3.transport.motor.motor.Motor;
 
 public class MotorAutobuzElectric implements Motor {
     private final String model;

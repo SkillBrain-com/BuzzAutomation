@@ -1,6 +1,7 @@
 package homework.edinita.javaPart3.javaPart3_2and3.transport.mijloaceDeTransport.autobuze;
 
-import temeNotion_si_heartBeat.javaPart3_2and3.transport.mijloaceDeTransport.Transport;
+
+import homework.edinita.javaPart3.javaPart3_2and3.transport.mijloaceDeTransport.Transport;
 
 public class Autobuz implements Transport {
     private String model;
