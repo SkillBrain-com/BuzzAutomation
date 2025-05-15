@@ -22,6 +22,7 @@ public class TestAlert {
     private static void secondAlertTest() {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
+        driver.manage().window().maximize();
         // 1. got to /alerts page
         driver.get("https://demoqa.com/alerts");
         // 2. click on On button click, confirm box will appear
