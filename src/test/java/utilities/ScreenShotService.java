@@ -23,6 +23,7 @@ public class ScreenShotService {
         try {
             FileUtils.copyFile(sourceFile, destinationFile);
         } catch (IOException ioException) {
+            ioException.printStackTrace();
             throw new RuntimeException("Something went wrong when taking screenshot");
         }
 
