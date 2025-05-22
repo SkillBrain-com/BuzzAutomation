@@ -10,6 +10,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import utilities.ChromeDriverOption;
+import utilities.EdgeDriverOptions;
 import utilities.PropertyUtils;
 
 public class DriverFactory implements DriverManager {
@@ -33,7 +34,7 @@ public class DriverFactory implements DriverManager {
             case EDGE:
                 LOGGER.debug("Returning edgeDriver");
                 WebDriverManager.edgedriver().setup();
-                return new EdgeDriver();
+                return new EdgeDriver(EdgeDriverOptions.getEdgeOptions());
             default:
                 throw new IllegalStateException("Unexpected browser type: ");
         }
