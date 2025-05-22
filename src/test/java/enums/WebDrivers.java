@@ -6,5 +6,6 @@ public enum WebDrivers {
     FIREFOX,
     EDGE,
     OPERA,
-    SAFARI
+    SAFARI,
+    REMOTE
 }

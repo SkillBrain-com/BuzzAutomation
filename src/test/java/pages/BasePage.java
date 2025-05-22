@@ -1,6 +1,8 @@
 package pages;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utilities.PropertyUtils;
@@ -26,5 +28,10 @@ public class BasePage {
 
     public WebDriverWait getWait() {
         return wait;
+    }
+
+    public void scrollToElement(WebDriver driver, WebElement element) {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].scrollIntoView({behavior:'smooth', block: 'center'})", element);
     }
 }

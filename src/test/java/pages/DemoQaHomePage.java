@@ -26,9 +26,20 @@ public class DemoQaHomePage extends BasePage {
         driver.get(PropertyUtils.loadProperties().getProperty("demoQa"));
     }
 
+    public void clickOnFormsCard() {
+        formsCard.click();
+    }
+
     public void clickOnElementCard() {
         LOGGER.debug("Clicking on Elements card...");
         elementCard.click();
     }
 
+    public WebElement getElementCard() {
+        return elementCard;
+    }
+
+    public WebElement getFormsCard() {
+        return formsCard;
+    }
 }
