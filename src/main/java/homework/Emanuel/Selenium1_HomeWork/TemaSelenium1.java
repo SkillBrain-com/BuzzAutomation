@@ -1,11 +1,55 @@
 package homework.Emanuel.Selenium1_HomeWork;
 
+
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.*;
+
+import java.time.Duration;
+
+import static org.testng.Assert.assertEquals;
+
+publicclass OveitTicketTest {
+
+    private WebDriver driver;
+
+    @BeforeClass
+    public void setUp() {
+        WebDriverManager.chromedriver().setup();
+        driver = new ChromeDriver();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().window().maximize();
+    }
+
+    @Test
+    public void testTicketNameInput() throws InterruptedException {
+        // Mergi la pagina
+        driver.get("https://web02.stg.oveit.com/seller/ticket_types_new?id_event=8619");
+
+        // Așteaptă puțin dacă e nevoie (folosește WebDriverWait în loc de sleep în test real)
+        Thread.sleep(2000);
+
+        // Completează câmpul de ticket
+        WebElement ticketName = driver.findElement(By.id("ticket_name"));
+        ticketName.clear();
+        ticketName.sendKeys("Bilet Test Automat");
+
+        // Verificare
+        assertEquals(ticketName.getAttribute("value"), "Bilet Test Automat");
+    }
+
+    @AfterClass
+    public void tearDown() {
+        if (driver != null) {
+            driver.quit();
+        }
+    }
+}
+
 
 public class TemaSelenium1 {
 
