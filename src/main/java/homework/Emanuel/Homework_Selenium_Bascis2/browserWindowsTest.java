@@ -1,6 +1,5 @@
 package homework.Emanuel.Homework_Selenium_Bascis2;
 
-import SeleniumBascis2.Utlilites.ScreenShotService;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
