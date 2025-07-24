@@ -17,14 +17,17 @@ public class ScreenShotService {
         TakesScreenshot screenshot = (TakesScreenshot) driver;
         File sourceFile = screenshot.getScreenshotAs(OutputType.FILE);
         destinationString =
-                System.getProperty("user.dir") + "/report/screenshots/Test-" + LocalTime.now() + ".png";
+                System.getProperty("user.dir") + "\\report\\screenshots\\Test-" + LocalTime.now() + ".png";
         File destinationFile = new File(destinationString);
 
         try {
             FileUtils.copyFile(sourceFile, destinationFile);
         } catch (IOException ioException) {
+            ioException.printStackTrace();
             throw new RuntimeException("Something went wrong when taking screenshot");
+
         }
+
 
 
     }
