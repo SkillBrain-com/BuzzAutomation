@@ -1,4 +1,4 @@
-package homework.Andrei.Paun.java;
+package homework.Andrei.Paun.java1Homework;
 
 public class Ex2 {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package homework.PaulaVasiliu.javabascis2;
 
-import javabascis2.Lasagna;
+import Lasagna ;
 
 public class Cake {
 

@@ -1,4 +1,4 @@
-package homework.Andrei.Paun.acasa;
+package homework.Andrei.Paun.teme.pentru.acasa;
 
 public class ex8 {
     public static void main(String[] args) {

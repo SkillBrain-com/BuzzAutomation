@@ -1,4 +1,4 @@
-package homework.Andrei.Paun.acasa;
+package homework.Andrei.Paun.teme.pentru.acasa;
 
 import java.util.Scanner;
 
