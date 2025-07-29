@@ -1,4 +1,4 @@
-package Java2;
+package homework.SamuelH.Java2;
 
 public class exe1 {
     public static void main(String[] args) {

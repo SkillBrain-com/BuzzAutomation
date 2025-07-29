@@ -1,4 +1,4 @@
-package Java3;
+package homework.SamuelH.Java3;
 
 public abstract class Fighter {
     public boolean isVulnerable() {

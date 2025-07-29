@@ -1,4 +1,4 @@
-package Java3;
+package homework.SamuelH.Java3;
 
 public class Warrior extends Fighter {
 
