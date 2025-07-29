@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MobileSuite" parallel="false">
+    <parameter name="env" value="mobile"/>
+    <test name="MobileTests">
+        <classes>
+            <class name="ajax.tests.AjaxTest"/>
+            <class name="ajax.tests.RedirectTest"/>
+            <class name="ajax.tests.RefreshTest"/>
+            <class name="ajax.tests.DynamicButtonsTest"/>
+            <class name="ajax.tests.DynamicDisabledButtonsTest"/>
+        </classes>
+    </test>
+</suite>
