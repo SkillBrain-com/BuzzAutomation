@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AJAX Suite">
+    <parameter name="env" value="desktop"/>
+    <test name="AJAX Tests">
+        <classes>
+            <class name="ajax.tests.AjaxTest"/>
+            <class name="ajax.tests.RedirectTest"/>
+            <class name="ajax.RefreshTest"/>
+            <class name="ajax.DynamicButtonsSimpleTest"/>
+            <class name="ajax.DynamicButtonsDisabledTest"/>
+        </classes>
+    </test>
+</suite>

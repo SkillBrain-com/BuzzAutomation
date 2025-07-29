@@ -1,0 +1,12 @@
+<suite name="DesktopSuite" parallel="false">
+    <parameter name="env" value="desktop"/>
+    <test name="DesktopTests">
+        <classes>
+            <class name="ajax.tests.AjaxTest"/>
+            <class name="ajax.tests.RedirectTest"/>
+            <class name="ajax.tests.RefreshTest"/>
+            <class name="ajax.tests.DynamicButtonsTest"/>
+            <class name="ajax.tests.DynamicDisabledButtonsTest"/>
+        </classes>
+    </test>
+</suite>
