@@ -1,0 +1,15 @@
+package homework.edinita.demoSelenium3.driver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+public class BrowserConfig {
+
+    public static ChromeDriver getChromeDriver() {
+        WebDriverManager.chromedriver().setup();
+        ChromeOptions chromeOptions = new ChromeOptions();
+        chromeOptions.addArguments("start-maximized");
+        return new ChromeDriver(chromeOptions);
+    }
+}
