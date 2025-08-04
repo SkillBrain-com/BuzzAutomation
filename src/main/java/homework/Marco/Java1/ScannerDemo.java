@@ -1,4 +1,4 @@
-package Java1;
+package homework.Marco.Java1;
 
 import java.util.Scanner;
 
